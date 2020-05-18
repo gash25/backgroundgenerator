@@ -1,0 +1,23 @@
+{
+  "root": {
+    "-xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "header": {
+      "xmlVersion": "12",
+      "timeOut": "0",
+      "oem": "G4I_UI",
+      "lang": "en-US",
+      "loginAgentID": { "-xsi:nil": "true" },
+      "loginAgntClrkID": "0",
+      "employeeID": { "-xsi:nil": "true" },
+      "supplierID": { "-xsi:nil": "true" },
+      "userHostAddress": "127.0.0.1",
+      "userComputerId": "97bf61c5-9cd0-4556-9801-45fb7273c4fa",
+      "UISessionId": "pe3g0onac55aeskk0rasvvog",
+      "HttpRequestUserAgent": "TravelBoosterManagement"
+    },
+    "body": { "opCode": "OP_FAST_HEALTH_CHECK" },
+    "HealthCheckType": "Fast",
+    "SubChecks": "InternetConnection DatabaseConnection MemoryUsage"
+  }
+}
